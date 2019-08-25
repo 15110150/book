@@ -1,0 +1,136 @@
+body {
+    background-color: #76acfc;
+    color: #fff;
+    margin: auto;
+    font-size: 13px;
+    max-width: 960px;
+    line-height: 2;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header-title {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.header-body {
+    margin-top: 15px;
+}
+
+.container {
+    height: 150px;
+}
+
+.body {
+    margin-top: 50px;
+}
+
+.input {
+    height: calc((150px - 24px) /3);
+    border: none;
+    border-radius: 5px;
+    margin: calc(24px/6);
+    width: 100%;
+    padding-left: 5px;
+}
+
+.text-area {
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+}
+
+.form-input {
+    padding: 0px;
+}
+
+.area {
+    margin: calc(24px / 6) auto;
+}
+
+::-webkit-input-placeholder{
+   color: #a6a6a6;
+   padding: 5px;;
+}
+
+.phone {
+    width: 21px;
+    height: 30px;
+    display: inline-block;
+    background: url(img/sprites.png) 0px 10px;
+}
+  
+.mail {
+    width: 21px;
+    height: 30px;
+    display: inline-block;
+    background: url(img/sprites.png) -30px 10px;
+}
+
+.mark {
+    width: 21px;
+    height: 30px;
+    display: inline-block;
+    background: url(img/sprites.png) -60px 10px;
+}
+
+.map {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-map {
+    width: inherit;
+}
+
+.address {
+    position: absolute;
+    bottom: 0;
+}
+
+.info {
+    position: relative;
+}
+
+.contact {
+    margin-top: 7px;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.btn-submit {
+    height: 40px;
+    width: 100%;
+    background-color: #64ce83;
+    border-color: #3dc264;
+    color: #eeeeee;
+    border: 2px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 991px) {
+    .form-input {
+        padding-top: 30px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .area, .input {
+      margin: 5px auto !important;
+    }
+    .address {
+        position: unset !important;
+    }
+}
