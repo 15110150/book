@@ -1,0 +1,79 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar,
+.jumbotron {
+  border: none;
+  background-color: #334166;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.jumbotron {
+  background: linear-gradient( #334166, #525e80); 
+}
+
+.jumbotron .jumbotron-header {
+  font-weight: bold;
+  color: #fea850;
+  font-size: 4vw;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #f3f2f2;
+  color: #334166;
+}
+.jumbotron .jumbotron-body {
+  color: #fff;
+  font-size: 2.5vw;
+}
+.jumbotron p {
+  color: #f3f2f2;
+  font-size: 1vw;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.flag-start {
+  width: 4rem;
+}
+
+.tour-name {
+  color: black;
+}
+
+.title-contain {
+   font-size: 2vw;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.flag {
+  width: 3rem;
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+
+
+.title-card {
+  color: #fea850;
+}
